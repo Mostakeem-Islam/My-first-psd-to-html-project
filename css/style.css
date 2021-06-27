@@ -1,0 +1,192 @@
+*{
+    box-sizing: border-box;
+}
+
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 75%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+/* head */
+.socialkit{
+    background-color: rgb(128, 83, 17);
+    padding-left: 150px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin: 0px 250px;
+      
+}
+.btn{
+    background-color: rgb(255, 255, 255);
+    margin: 0px 10px;
+    border: none;
+}
+.btn:hover{
+    background-color: rgb(118, 218, 243);
+    transition: .5s;
+}
+.submit{
+    float: right;
+    margin-right: 150px;
+    color: white;
+    background-color: rgb(44, 20, 128);
+}
+.search{
+    float: right;
+    margin-right: auto;
+}
+/* head end */
+/* logo+navmenu */
+.logo .logos{
+    height: 80px;
+    width: 200px;
+    margin: 10px 0px 0px 850px;
+}
+.navmenu{
+    margin-top: 0px;
+    text-align: center;
+    background-color: rgb(91, 207, 24);
+    margin: 0px 250px;
+}
+.navmenu ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 20px 50px;
+    color: white;
+    font-size: 1.2rem;
+}
+.navmenu ul li:hover{
+    background-color: rgb(255, 255, 255);
+    color: black;
+    border-radius: 50px;
+    transition: 1s;
+}
+/* logo+navmenu ends*/
+
+.aboutme{
+    background-color: rgb(202, 196, 196);
+    margin: 0px 250px;
+}
+.aboutme .card-row .card-col h2{
+    font-size: 50px;
+}
+.aboutme .card-row .card-col p{
+    font-size: 20px;
+}
+.aboutme .card-row .card-col .read{
+height: 40px;
+border: none;
+border-radius: 10%;
+}
+.aboutme .card-row .card-col .read:hover{
+    background-color: black;
+    color: white;
+    transition: 0.7s;
+}
+ /* aboutme ends */
+
+ /* myservices start */
+ .myservices{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    margin-top: 100px;
+ }
+ .myservices{
+    font-size: 30px;
+    color: rgb(0, 0, 0);
+    font-weight: 300;
+    line-height: 22px;
+ }
+ .card-row{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 5%;
+    margin: 50px 15px 0;
+ }
+ .card-col{
+    flex-basis: 31%;
+    background: rgba(115, 217, 248, 0.288);
+    padding: 20px  12px;
+    border-radius: 10px;
+    box-sizing: border-box;
+    transition: 0.8s;
+ }
+ .card-col h2{
+    font-size: 30px;
+    font-weight: 600;
+ }
+ .card-col p{
+     font-size: 20px;
+    color: rgb(73, 72, 77);
+    font-weight: 400;
+    opacity: 0.8;
+ }
+ .card-col:hover{
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.404);
+ }
+
+ /* quick message start */
+.quickmessage{
+    background-image: url(../images/banner2.jpg);
+    margin: 50px 250px;
+    height: 400px;
+}
+.quickmessage .quick{
+    padding-top: 30px;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+}
+.quickmessage .name{
+    margin: 10px 0px 0px 300px;
+    height: 50px;
+    width: 350px;
+    border: none;
+    border-radius: 5px;
+    
+}
+.quickmessage .email{
+    margin: 0px 0px 0px 5px;
+    height: 50px;
+    width: 350px;
+    border: none;
+    border-radius: 5px;
+}
+.quickmessage .phone{
+    margin: 10px 0px 0px 300px;
+    height: 50px;
+    width: 350px;
+    border: none;
+    border-radius: 5px;
+}
+.quickmessage .password{
+    margin: 0px 0px 0px 5px;
+    height: 50px;
+    width: 350px;
+    border: none;
+    border-radius: 5px;
+}
+.quickmessage .msg{
+    margin: 25px 0px 0px 300px;
+    height: 80px;
+    width: 710px;
+    border: none;
+    border-radius: 10px;
+}
+/* quick message ends hree */
+
+.copy{
+    padding: 8px;
+    margin: 0px 300px;
+text-align: center;
+color: white;
+background-color: black;
+}
